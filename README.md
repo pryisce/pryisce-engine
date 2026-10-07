@@ -89,6 +89,15 @@ You should not have to take anyone's word for it, so here is what you can check 
 | Triage | [look up this file](https://tria.ge/s?q=7B058BFB53F384A73602EC8D4B1B63988E8A317F6759CFBCECA31E56230FC7A6) |
 <!-- scan:end -->
 
+**Scans already run** (7 October 2026, on `Pryisce.exe`, the program's launcher)
+
+| Scanner | Result | Scanned | Report |
+|---|---|---|---|
+| VirusTotal | **0 of 71** security vendors flagged it | `Pryisce.exe` from version 0.0.16 | [open report](https://www.virustotal.com/gui/file/706a5b2969a77725f8e8f87b6a574f8c3a87f190dbfaf01b5f8b33104276e478) |
+| Triage sandbox | **3 / 10** overall (static 3, behaviour 1 on Windows 10 and Windows 11), where 10 is known malware | `Pryisce.exe` from an earlier version | [open report](https://tria.ge/261007-ef13ea1zay) |
+
+These cover the versions named, not every later one; each release is a new file. Use the fingerprint above to check the one you downloaded.
+
 A brand-new, unsigned program that sends key presses (the auto clicker) can be flagged by a few scanners on behaviour alone. Read what a report actually says rather than only the number.
 
 **What it does and does not do**
