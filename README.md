@@ -13,13 +13,17 @@ finds what is wrong, changes only what has a reason, and proves the difference.
 
 **[Download](https://github.com/pryisce/pryisce-engine/releases/latest)** &nbsp;·&nbsp; **[Patch notes](https://github.com/pryisce/pryisce-engine/releases)** &nbsp;·&nbsp; **[Is it safe?](#is-it-safe)**
 
-![Pryisce Engine](docs/live.jpg)
+[![Watch the film](docs/film-preview.gif)](https://github.com/pryisce/pryisce-engine/blob/main/docs/film.mp4)
+
+<sub>A few seconds of the feature film. <a href="https://github.com/pryisce/pryisce-engine/blob/main/docs/film.mp4"><b>Watch all two minutes, with sound</b></a></sub>
 
 </div>
 
 ## Measure
 
 See what the game is really doing, live.
+
+![Live](docs/live.jpg)
 
 <table>
 <tr>
