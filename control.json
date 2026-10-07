@@ -1,7 +1,7 @@
 {
-    "latest":  "",
-    "download":  "",
-    "sha256":  "",
+    "latest":  "3.4.0",
+    "download":  "https://github.com/pppuncho/pryisce-engine/releases/download/v3.4.0/PryisceEngine-3.4.0.zip",
+    "sha256":  "9169E04B76108A13CDD1137FFAF5F2E47750EBAD798626E154892C3A547ED112",
     "minimum":  "",
     "locked":  [
 
