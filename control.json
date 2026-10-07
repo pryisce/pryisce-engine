@@ -1,14 +1,14 @@
 {
-    "version":  "0.0.18",
-    "minVersion":  "",
+    "version":  "0.0.19",
+    "minVersion":  "new pop-up the first time you open it after an update\n- Update announcements are posted to the Discord server automatically\n- The start-up screen stays up a little longer so it can be read",
     "latest":  "9.0.0",
-    "download":  "https://github.com/pppuncho/pryisce-engine/releases/download/v0.0.18/PryisceEngine-0.0.18.zip",
-    "sha256":  "9120FE326C4F7415E939D0E6B52ECDB9C4763D3C0A8C6B8B26D23A390C21E0A1",
+    "download":  "https://github.com/pppuncho/pryisce-engine/releases/download/v0.0.19/PryisceEngine-0.0.19.zip",
+    "sha256":  "D8D48DBF0CB7BBDF99B3939976738747349780C836AD051742F9BDB635A0971D",
     "minimum":  "3.4.1",
     "locked":  [
 
                ],
-    "serial":  1791378737,
-    "signature":  "pSlIeGOH/dZ+ZTbgYJJM/M1SgiobtLAQfmYowzJQHUCghOAZKzfCKnWMAK8uzI3AfTn5B8u3Ffq4hDGAtNQNkg==",
-    "signature2":  "+u7aZqTGTZQlE/UDu5n0oNet2nsSWQQw/0vrSUuehvXGr+Dmt7qNsku7YI3tkOnPmQeuxBz/hGW88zFgpaKxAw=="
+    "serial":  1791383191,
+    "signature":  "4ln9tWRnMXP5eMLAl55KYEeTfNIiK4sgbbFCBJzakgensgVT00lekULRN5cI9Wq0+mvOzZXwugpGZkj2zSetSA==",
+    "signature2":  "QdX4EfsH/o9ww7DsLWOrK+0Pzu7lskkJe6Ymjl0fLSbfxgXmL1En0u6ppJPXzebMe6jWIgbUaJEAFjZS6MH5Zw=="
 }
