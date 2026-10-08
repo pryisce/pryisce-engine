@@ -117,8 +117,8 @@ To check your own download, search this SHA-256 on [virustotal.com](https://www.
 <!-- scan:start -->
 | | |
 |---|---|
-| Latest release | `PryisceEngine-0.0.31.zip` |
-| SHA-256 | `E6DB23F30F4F9EB04F6E2666B0B23F099B6969F9C5C8AF2CE9F76C0268F43274` |
+| Latest release | `PryisceEngine-0.0.32.zip` |
+| SHA-256 | `E850D5B2C970DB930D41290F43345489E8EA9043B83344AAFF1402F5E49A613D` |
 <!-- scan:end -->
 
 What the app does:
