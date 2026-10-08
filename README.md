@@ -126,8 +126,8 @@ Scanned 7 October 2026. `Pryisce.exe` is the program's launcher; a report covers
 <!-- scan:start -->
 | | |
 |---|---|
-| Latest release | `PryisceEngine-0.0.27.zip` |
-| SHA-256 | `421513F284C38E465A520D8F709955D0482329296C0BF1DB8387ADB7E2AE9566` |
+| Latest release | `PryisceEngine-0.0.28.zip` |
+| SHA-256 | `CFEA73224919180F0D93D232D4972D904A041AD3344DE1B2ADA3152B7F883C84` |
 <!-- scan:end -->
 
 **What it does and does not do**
