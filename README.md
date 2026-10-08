@@ -2,10 +2,8 @@
 
 # Pryisce Engine
 
-### Measure. Diagnose. Optimize. Verify.
-
-A Windows companion for PC games. It shows what is really happening while you play,
-finds what is wrong, changes only what has a reason, and proves the difference.
+A free Windows app for PC gamers, made mostly for Roblox. It shows your real ping and fps,
+tells you what is causing lag, and has the tweaks and tools to fix it.
 
 [![Latest version](https://img.shields.io/github/v/release/pryisce/pryisce-engine?label=latest&color=FF2E97&style=for-the-badge)](https://github.com/pryisce/pryisce-engine/releases/latest)
 [![Downloads](https://img.shields.io/github/downloads/pryisce/pryisce-engine/total?color=A24DFF&style=for-the-badge)](https://github.com/pryisce/pryisce-engine/releases)
@@ -13,15 +11,13 @@ finds what is wrong, changes only what has a reason, and proves the difference.
 
 **[Download](https://github.com/pryisce/pryisce-engine/releases/latest)** &nbsp;·&nbsp; **[Patch notes](https://github.com/pryisce/pryisce-engine/releases)** &nbsp;·&nbsp; **[Is it safe?](#is-it-safe)**
 
-[![Watch the film on YouTube](docs/film-preview.gif)](https://youtu.be/MPpSFRBb1kM)
+[![Watch the video on YouTube](docs/film-preview.gif)](https://youtu.be/MPpSFRBb1kM)
 
-[![Watch the film on YouTube](https://img.shields.io/badge/Watch%20the%20film-YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white)](https://youtu.be/MPpSFRBb1kM)
+[![Watch the video on YouTube](https://img.shields.io/badge/Watch%20the%20video-YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white)](https://youtu.be/MPpSFRBb1kM)
 
 </div>
 
-## Measure
-
-See what the game is really doing, live.
+## Ping, fps and temps
 
 ![Live](docs/live.jpg)
 
@@ -32,23 +28,19 @@ See what the game is really doing, live.
 </tr>
 </table>
 
-- **Live** · ping to the real game server five times a second, and where on the route the time goes
-- **Frame Time** · frame rate ten times a second, with the lows and every freeze
-- **Sensors** · temperatures, clocks, power and fans, with no driver to install
-- **Background** · which programs are taking performance from the game, and a way to pause them
+- **Live**: ping to the game server you are actually on, five times a second, and where on the route the delay is
+- **Frame Time**: fps ten times a second, with the lows and every freeze
+- **Sensors**: temperatures, clock speeds, power and fans, no driver needed
+- **Background**: which programs are eating performance while you play, with a button to pause them
 
-## Diagnose
-
-Find the cause instead of guessing.
+## Finding lag
 
 ![Diagnostics](docs/diagnostics.jpg)
 
-- **Diagnostics** · six troubleshooters that check the likely causes in order
-- **Fair Play** · "was that lag me?" pins a ping spike to your router, your provider or the server
+- **Diagnostics**: six troubleshooters that go through the usual causes one by one
+- **Fair Play**: tells you if a ping spike came from your router, your internet provider or the game server
 
-## Optimize
-
-Change only what has a reason on your PC.
+## Tweaks
 
 <table>
 <tr>
@@ -57,15 +49,13 @@ Change only what has a reason on your PC.
 </tr>
 </table>
 
-- **Advisor** · suggests only what fits your PC, with its impact and its risk
-- **Tweaks** · eighty Windows and network tweaks, each explained and reversible
-- **Profiles** · settings for how you play, applied when a game starts and undone when it closes
-- **Frame Generation** · extra frames for Roblox
-- **Tools** · a toolbox of one-off jobs
+- **Advisor**: suggests tweaks that fit your PC and says how much each one helps and what the risk is
+- **Tweaks**: eighty Windows and network tweaks, each one explained, each one can be undone
+- **Profiles**: settings that switch on when a game starts and off when it closes
+- **Frame Generation**: extra frames for Roblox
+- **Tools**: one-off jobs like clearing caches
 
-## Verify
-
-Prove the change helped, or take it back.
+## Benchmark and undo
 
 <table>
 <tr>
@@ -74,15 +64,15 @@ Prove the change helped, or take it back.
 </tr>
 </table>
 
-- **Benchmark** · timed runs before and after a change, side by side
-- **History** · every session recorded, with a replay you can scrub through
-- **Snapshots** · the state of your PC before each change, so anything can be undone
+- **Benchmark**: timed runs before and after a tweak, next to each other
+- **History**: every session is recorded and can be played back
+- **Snapshots**: your PC's settings are saved before each change, so you can go back
 
-## Built for Roblox
+## Roblox
 
 ![Server globe](docs/globe.jpg)
 
-- **Server globe** · on every join and teleport a 3D Earth turns to the data centre you are connecting to, and stays until you have loaded in
+- **Server globe**: when you join or teleport, a 3D globe shows which data centre you are connecting to, until you have loaded in
 
 <table>
 <tr>
@@ -91,17 +81,18 @@ Prove the change helped, or take it back.
 </tr>
 </table>
 
-- **Auto Clicker** · no speed cap, clicks on an even beat, auto key swap, and a tuner that finds your best settings
-- **Crosshair** · replaces Roblox's mouse pointer with a crosshair you pick, at the size you pick
-- **BedWars** · always sprint and anti stick drift, shown only while you are in BedWars
+- **Auto Clicker**: no speed cap, evenly timed clicks, auto key swap with an on/off key and an off key, and a BedWars tuner that finds your best settings
+- **Crosshair**: swaps the Roblox mouse pointer for a crosshair you pick, at the size you pick
+- **BedWars**: always sprint and anti stick drift
+- **Discord**: shows Pryisce Engine on your Discord profile, with your own text, picture and buttons
 
-## Make it yours
+## Settings
 
 ![24 colour palettes](docs/palettes.jpg)
 
-- **Settings** · in-game readout, hotkeys, sounds and 24 colour palettes
-- **Overview** and **Games** · everything about the game you are in on one screen, and your library with a profile per game
-- **Updates itself** · close the app and open it again; that is the whole update
+- **Settings**: in-game overlay, hotkeys, sounds and 24 colour palettes
+- **Overview** and **Games**: the game you are in on one screen, and your library with a profile per game
+- **Updates**: close the app and open it again to get the newest version
 
 ## Install
 
@@ -112,16 +103,16 @@ Needs Windows 10 or 11 (64-bit) and the [.NET 10 Desktop Runtime](https://dotnet
 
 ## Is it safe?
 
-You should not have to take anyone's word for it. These are real scan reports you can open:
+Scan reports you can open yourself:
 
 | Scanner | Result | What was scanned | |
 |---|---|---|---|
 | **VirusTotal** | **0 of 71** security vendors flagged it | `Pryisce.exe`, version 0.0.16 | [**Open the report**](https://www.virustotal.com/gui/file/706a5b2969a77725f8e8f87b6a574f8c3a87f190dbfaf01b5f8b33104276e478) |
 | **Triage sandbox** | **3 / 10** (static 3, behaviour 1), where 10 is known malware | `Pryisce.exe`, an earlier version | [**Open the report**](https://tria.ge/261007-ef13ea1zay) |
 
-Scanned 7 October 2026. `Pryisce.exe` is the program's launcher; a report covers the version it names, and every release is a new file.
+Scanned 7 October 2026. Each report is for the version it names; every release is a new file.
 
-**Check the copy you downloaded.** This is the fingerprint of the latest release. Search for it on [virustotal.com](https://www.virustotal.com/gui/home/search), or upload the zip there yourself.
+To check your own download, search this SHA-256 on [virustotal.com](https://www.virustotal.com/gui/home/search) or upload the zip there.
 
 <!-- scan:start -->
 | | |
@@ -130,18 +121,18 @@ Scanned 7 October 2026. `Pryisce.exe` is the program's launcher; a report covers
 | SHA-256 | `CFEA73224919180F0D93D232D4972D904A041AD3344DE1B2ADA3152B7F883C84` |
 <!-- scan:end -->
 
-**What it does and does not do**
+What the app does:
 
-- No account, no telemetry, nothing collected about you.
-- No code is injected into any game and no game memory is read.
-- The auto clicker, always sprint and anti stick drift send ordinary keyboard and mouse input.
-- The crosshair swaps three pointer pictures in Roblox's folder, keeps the originals, and puts them back when you detach it.
+- No account, no telemetry, no data collected.
+- Nothing is injected into a game and no game memory is read.
+- The auto clicker, always sprint and anti stick drift send normal keyboard and mouse input.
+- The crosshair replaces three pointer pictures in the Roblox folder, keeps the originals, and puts them back when you detach it.
 - Every tweak is saved in a snapshot first and can be undone.
-- Updates are signed: a copy ignores any update or instruction that does not carry the publisher's signature.
-- It goes online only to check GitHub for updates, to look up where a game server is, and to read public Roblox information (names, pictures, crosshair decals).
+- Updates are signed, so a copy only accepts updates from the publisher.
+- It goes online to check GitHub for updates, to look up where a game server is, and to read public Roblox info (names, pictures, crosshair decals).
 
 > [!WARNING]
-> Auto clickers, input helpers and modified game files can be against a game's rules. Using those features online is your own decision and your own risk; an account can be actioned for it. The measuring, diagnosing and optimizing features do not touch the game.
+> Auto clickers, input helpers and changed game files can be against a game's rules. Using them online is at your own risk and can get an account banned. The ping, fps, diagnostics and tweak features do not touch the game.
 
 ---
 
