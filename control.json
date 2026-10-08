@@ -1,14 +1,14 @@
 {
-    "version":  "0.0.28",
+    "version":  "0.0.29",
     "minVersion":  "",
     "latest":  "9.0.0",
-    "download":  "https://github.com/pppuncho/pryisce-engine/releases/download/v0.0.28/PryisceEngine-0.0.28.zip",
-    "sha256":  "CFEA73224919180F0D93D232D4972D904A041AD3344DE1B2ADA3152B7F883C84",
+    "download":  "https://github.com/pppuncho/pryisce-engine/releases/download/v0.0.29/PryisceEngine-0.0.29.zip",
+    "sha256":  "A11810EF868932D7B8832D22D0C8D62FA9BAA11F2A9BD4C74871D5F1B4917749",
     "minimum":  "3.4.1",
     "locked":  [
 
                ],
-    "serial":  1791417843,
-    "signature":  "zhMNU+F75PX3HMsUDw6TXAeEauFtXc5nyicaL7bN6Z/oBOQkXviZ/7Zkc72uQqYpq02XeL9JRyhFtb9uLxwZmw==",
-    "signature2":  "hjrOd9eopfPnHemErblCspxWus9PS3/ODUdN0nQchWrMXf3TUYbeMZWbIUIdJDYmItoJh1XKq0yYOeKFtb9bDw=="
+    "serial":  1791418013,
+    "signature":  "Qra88wvvNI1e5OSQnW7YpbvhdqoTcRxGN/A8xHm/8anUmNLQmwQhsQmAD65rm44h94BqP2EhMZBoTuDAEM/DyQ==",
+    "signature2":  "Om2wHWccREvzdTMmYAYCmyVhm1eCLUZGtTagWWiMFoVSG1480+12S2mdvLCbkoK2JA3m/y2BiLN0lnXmzMhtsQ=="
 }
