@@ -1,0 +1,48 @@
+# Goes into the PUBLIC repository (pryisce/pryisce-engine) as .github/workflows/announce.yml
+#
+# When a release is published, posts it in the Discord updates channel through a webhook.
+# Needs one repository secret: DISCORD_WEBHOOK_URL (Discord > the updates channel > Edit Channel >
+# Integrations > Webhooks > New Webhook > Copy Webhook URL). Nothing else; the bot token is not used here.
+# No ping is sent. It can also be started by hand for one version (Actions > Announce a release > Run workflow).
+name: Announce a release
+
+on:
+  release:
+    types: [published]
+  workflow_dispatch:
+    inputs:
+      tag:
+        description: "The release to announce, as its tag (v0.0.34)"
+        required: true
+
+permissions:
+  contents: read
+
+jobs:
+  announce:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - name: Post in Discord
+        env:
+          WEBHOOK: ${{ secrets.DISCORD_WEBHOOK_URL }}
+          GH_TOKEN: ${{ github.token }}
+          TAG: ${{ github.event.release.tag_name || inputs.tag }}
+          REPOSITORY: ${{ github.repository }}
+        run: |
+          set -euo pipefail
+          if [ -z "$WEBHOOK" ]; then echo "The DISCORD_WEBHOOK_URL secret is not set."; exit 1; fi
+          release=$(gh api "repos/$REPOSITORY/releases/tags/$TAG")
+          # The patch notes are the part of the release text under "What's new", up to the line of dashes.
+          notes=$(jq -r '.body // ""' <<<"$release" | tr -d '\r' | awk '/^## What.s new/{on=1; next} /^---/{on=0} on' | sed '/^[[:space:]]*$/d' | head -c 3500)
+          if [ -z "$notes" ]; then notes="See the release page for what changed."; fi
+          jq -n --arg notes "$notes" --arg title "$(jq -r '.name // .tag_name' <<<"$release")" --arg url "$(jq -r '.html_url' <<<"$release")" '{
+            username: "Pryisce Engine",
+            allowed_mentions: { parse: [] },
+            embeds: [{ title: $title, url: $url, color: 16723607,
+                       description: ("**What'"'"'s new**\n" + $notes + "\n\nCopies you already have update themselves the next time they start.") }]
+          }' > message.json
+          # The webhook address is a secret: it is never printed, and neither is what Discord answers.
+          code=$(curl -sS -o /dev/null -w '%{http_code}' -H 'Content-Type: application/json' --data @message.json "$WEBHOOK")
+          if [ "$code" != "204" ] && [ "$code" != "200" ]; then echo "Discord answered $code"; exit 1; fi
+          echo "Announced $TAG."
