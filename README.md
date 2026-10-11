@@ -13,7 +13,7 @@ It measures your ping, fps and temperatures, shows where lag comes from, and has
 
 **[Download](https://github.com/pryisce/pryisce-engine/releases/latest)** &nbsp;·&nbsp; **[Patch notes](https://github.com/pryisce/pryisce-engine/releases)** &nbsp;·&nbsp; **[Install](#install)** &nbsp;·&nbsp; **[Is it safe?](#is-it-safe)**
 
-![Overview](docs/screens/overview.jpg)
+![Overview](docs/ui/overview.jpg)
 
 </div>
 
@@ -25,14 +25,14 @@ It measures your ping, fps and temperatures, shows where lag comes from, and has
 | **Find lag** | Diagnostics, Fair Play |
 | **Fix it** | Advisor, Profiles, Tweaks, Frame Generation, Tools |
 | **Check it worked** | Benchmark, History, Snapshots |
-| **Roblox** | Server globe, Auto Clicker, BedWars, Crosshair, Discord card |
+| **Roblox** | Server globe, Auto Clicker, BedWars, Crosshair, Fast Flags, Discord card |
 
 ## Measure
 
 <table>
 <tr>
-<td width="50%"><img src="docs/screens/sensors.jpg" alt="Sensors"></td>
-<td width="50%"><img src="docs/screens/live.jpg" alt="Live"></td>
+<td width="50%"><img src="docs/ui/sensors.jpg" alt="Sensors"></td>
+<td width="50%"><img src="docs/ui/live.jpg" alt="Live"></td>
 </tr>
 </table>
 
@@ -43,14 +43,14 @@ It measures your ping, fps and temperatures, shows where lag comes from, and has
 
 ## Find lag
 
-![Diagnostics](docs/screens/diagnostics.jpg)
+![Diagnostics](docs/ui/diagnostics.jpg)
 
 - **Diagnostics**: six troubleshooters (fps dropping, high ping, stutter, disconnects, overheating, game not detected) that check the usual causes one by one
 - **Fair Play**: tells you if a ping spike came from your router, your internet provider or the game server
 
 ## Fix it
 
-![Profiles](docs/screens/profiles.jpg)
+![Profiles](docs/ui/profiles.jpg)
 
 - **Profiles**: type how you play, like "ranked BedWars, lowest delay, pause Chrome", and the app builds the profile and shows what it understood before you keep it. You can also build one switch by switch. Make as many as you want. A profile starts with the game and everything it changed is undone when the game closes
 - **Advisor**: scans your PC and suggests only the tweaks that fit it, with how much each one helps and what the risk is
@@ -58,14 +58,14 @@ It measures your ping, fps and temperatures, shows where lag comes from, and has
 - **Frame Generation**: extra frames for Roblox
 - **Tools**: one-off jobs like clearing caches
 
-![Tweaks](docs/screens/tweaks.jpg)
+![Tweaks](docs/ui/tweaks.jpg)
 
 ## Check it worked
 
 <table>
 <tr>
-<td width="50%"><img src="docs/screens/benchmark.jpg" alt="Benchmark"></td>
-<td width="50%"><img src="docs/screens/snapshots.jpg" alt="Snapshots"></td>
+<td width="50%"><img src="docs/ui/benchmark.jpg" alt="Benchmark"></td>
+<td width="50%"><img src="docs/ui/snapshots.jpg" alt="Snapshots"></td>
 </tr>
 </table>
 
@@ -75,31 +75,32 @@ It measures your ping, fps and temperatures, shows where lag comes from, and has
 
 ## Roblox
 
-![Server globe](docs/screens/globe.jpg)
+![Server globe](docs/ui/globe.jpg)
 
 - **Server globe**: when you join or teleport, a 3D globe shows which data centre you are connecting to, until you have loaded in
 
 <table>
 <tr>
-<td width="50%"><img src="docs/screens/auto-clicker.jpg" alt="Auto Clicker"></td>
-<td width="50%"><img src="docs/screens/bedwars.jpg" alt="BedWars"></td>
+<td width="50%"><img src="docs/ui/auto-clicker.jpg" alt="Auto Clicker"></td>
+<td width="50%"><img src="docs/ui/bedwars.jpg" alt="BedWars"></td>
 </tr>
 <tr>
-<td width="50%"><img src="docs/screens/crosshair.jpg" alt="Crosshair"></td>
-<td width="50%"><img src="docs/screens/discord.jpg" alt="Discord"></td>
+<td width="50%"><img src="docs/ui/crosshair.jpg" alt="Crosshair"></td>
+<td width="50%"><img src="docs/ui/discord.jpg" alt="Discord"></td>
 </tr>
 </table>
 
 - **Auto Clicker**: no speed cap and evenly timed clicks. Three timing levels (Light, Normal, Exact), an option that stops Windows slowing it down behind the game, and a readout of how far off the beat the last burst was
-- **BedWars**: auto key swap with an on/off key and an off key, Smart AutoKey, a tuner that finds your best settings, always sprint and anti stick drift. The tab only shows while you are in BedWars
+- **BedWars**: auto key swap with an on/off key and an off key, Smart AutoKey, always sprint and anti stick drift. One press of the tuner finds your best sword speed and then your best swap timing. The tab only shows while you are in BedWars
+- **Fast Flags**: add, change and remove Roblox fast flags. It edits Roblox's own settings file and can put everything back
 - **Crosshair**: swaps the Roblox mouse pointer for a crosshair you make or pick, at the size you pick
 - **Discord**: shows Pryisce Engine on your Discord profile with your own text and picture
 
 ## Settings
 
-![24 colour palettes](docs/screens/palettes.jpg)
+![24 colour palettes](docs/ui/palettes.jpg)
 
-- **Look**: 24 colour palettes. Switches, sliders and meters follow the colour you pick
+- **Look**: 24 colour palettes. Switches, sliders and meters follow the colour you pick. The side bar shows eight rows; the other pages open from four groups
 - **Notifications**: a small notice in the corner for the things you choose: heat warnings, a profile starting, a finished benchmark, ping spikes, frame freezes, a new server. Each one has its own switch. Notices cannot be clicked, so they never get in the way of a game
 - **In-game overlay, hotkeys and sounds**
 - **Updates**: close the app and open it again to get the newest version
