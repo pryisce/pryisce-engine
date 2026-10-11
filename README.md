@@ -25,7 +25,7 @@ It measures your ping, fps and temperatures, shows where lag comes from, and has
 | **Find lag** | Diagnostics, Fair Play |
 | **Fix it** | Advisor, Profiles, Tweaks, Frame Generation, Tools |
 | **Check it worked** | Benchmark, History, Snapshots |
-| **Roblox** | Server globe, Auto Clicker, BedWars, Crosshair, Fast Flags, Discord card |
+| **Roblox** | Server globe, Auto Clicker, BedWars, Crosshair, Discord card |
 
 ## Measure
 
@@ -92,7 +92,6 @@ It measures your ping, fps and temperatures, shows where lag comes from, and has
 
 - **Auto Clicker**: no speed cap and evenly timed clicks. Three timing levels (Light, Normal, Exact), an option that stops Windows slowing it down behind the game, and a readout of how far off the beat the last burst was
 - **BedWars**: auto key swap with an on/off key and an off key, Smart AutoKey, always sprint and anti stick drift. One press of the tuner finds your best sword speed and then your best swap timing. The tab only shows while you are in BedWars
-- **Fast Flags**: add, change and remove Roblox fast flags. It edits Roblox's own settings file and can put everything back
 - **Crosshair**: swaps the Roblox mouse pointer for a crosshair you make or pick, at the size you pick
 - **Discord**: shows Pryisce Engine on your Discord profile with your own text and picture
 
