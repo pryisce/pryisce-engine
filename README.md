@@ -13,7 +13,7 @@ It measures your ping, fps and temperatures, shows where lag comes from, and has
 
 **[Download](https://github.com/pryisce/pryisce-engine/releases/latest)** &nbsp;·&nbsp; **[Patch notes](https://github.com/pryisce/pryisce-engine/releases)** &nbsp;·&nbsp; **[Install](#install)** &nbsp;·&nbsp; **[Is it safe?](#is-it-safe)**
 
-![Overview](docs/ui/overview.jpg)
+![Overview](docs/v3/overview.jpg)
 
 </div>
 
@@ -31,8 +31,8 @@ It measures your ping, fps and temperatures, shows where lag comes from, and has
 
 <table>
 <tr>
-<td width="50%"><img src="docs/ui/sensors.jpg" alt="Sensors"></td>
-<td width="50%"><img src="docs/ui/live.jpg" alt="Live"></td>
+<td width="50%"><img src="docs/v3/sensors.jpg" alt="Sensors"></td>
+<td width="50%"><img src="docs/v3/live.jpg" alt="Live"></td>
 </tr>
 </table>
 
@@ -43,14 +43,14 @@ It measures your ping, fps and temperatures, shows where lag comes from, and has
 
 ## Find lag
 
-![Diagnostics](docs/ui/diagnostics.jpg)
+![Diagnostics](docs/v3/diagnostics.jpg)
 
 - **Diagnostics**: six troubleshooters (fps dropping, high ping, stutter, disconnects, overheating, game not detected) that check the usual causes one by one
 - **Fair Play**: tells you if a ping spike came from your router, your internet provider or the game server
 
 ## Fix it
 
-![Profiles](docs/ui/profiles.jpg)
+![Profiles](docs/v3/profiles.jpg)
 
 - **Profiles**: type how you play, like "ranked BedWars, lowest delay, pause Chrome", and the app builds the profile and shows what it understood before you keep it. You can also build one switch by switch. Make as many as you want. A profile starts with the game and everything it changed is undone when the game closes
 - **Advisor**: scans your PC and suggests only the tweaks that fit it, with how much each one helps and what the risk is
@@ -58,14 +58,14 @@ It measures your ping, fps and temperatures, shows where lag comes from, and has
 - **Frame Generation**: extra frames for Roblox
 - **Tools**: one-off jobs like clearing caches
 
-![Tweaks](docs/ui/tweaks.jpg)
+![Tweaks](docs/v3/tweaks.jpg)
 
 ## Check it worked
 
 <table>
 <tr>
-<td width="50%"><img src="docs/ui/benchmark.jpg" alt="Benchmark"></td>
-<td width="50%"><img src="docs/ui/snapshots.jpg" alt="Snapshots"></td>
+<td width="50%"><img src="docs/v3/benchmark.jpg" alt="Benchmark"></td>
+<td width="50%"><img src="docs/v3/snapshots.jpg" alt="Snapshots"></td>
 </tr>
 </table>
 
@@ -75,29 +75,30 @@ It measures your ping, fps and temperatures, shows where lag comes from, and has
 
 ## Roblox
 
-![Server globe](docs/ui/globe.jpg)
+![Server globe](docs/v3/globe.jpg)
 
 - **Server globe**: when you join or teleport, a 3D globe shows which data centre you are connecting to, until you have loaded in
 
 <table>
 <tr>
-<td width="50%"><img src="docs/ui/auto-clicker.jpg" alt="Auto Clicker"></td>
-<td width="50%"><img src="docs/ui/bedwars.jpg" alt="BedWars"></td>
+<td width="50%"><img src="docs/v3/auto-clicker.jpg" alt="Auto Clicker"></td>
+<td width="50%"><img src="docs/v3/bedwars.jpg" alt="BedWars"></td>
 </tr>
 <tr>
-<td width="50%"><img src="docs/ui/crosshair.jpg" alt="Crosshair"></td>
-<td width="50%"><img src="docs/ui/discord.jpg" alt="Discord"></td>
+<td width="50%"><img src="docs/v3/crosshair.jpg" alt="Crosshair"></td>
+<td width="50%"><img src="docs/v3/discord.jpg" alt="Discord"></td>
 </tr>
 </table>
 
 - **Auto Clicker**: no speed cap and evenly timed clicks. Three timing levels (Light, Normal, Exact), an option that stops Windows slowing it down behind the game, and a readout of how far off the beat the last burst was
 - **BedWars**: auto key swap with an on/off key and an off key, Smart AutoKey, always sprint and anti stick drift. One press of the tuner finds your best sword speed and then your best swap timing. The tab only shows while you are in BedWars
+- **Fight log** (BedWars, off until you switch it on): counts the hits you take from your own health bar, reads who you fought from the name tag and the kill feed, and marks fights where hits came faster than the game allows. Fights on a bad ping are never marked. It only looks at your screen
 - **Crosshair**: swaps the Roblox mouse pointer for a crosshair you make or pick, at the size you pick
 - **Discord**: shows Pryisce Engine on your Discord profile with your own text and picture
 
 ## Settings
 
-![24 colour palettes](docs/ui/palettes.jpg)
+![24 colour palettes](docs/v3/palettes.jpg)
 
 - **Look**: 24 colour palettes. Switches, sliders and meters follow the colour you pick. The side bar shows eight rows; the other pages open from four groups
 - **Notifications**: a small notice in the corner for the things you choose: heat warnings, a profile starting, a finished benchmark, ping spikes, frame freezes, a new server. Each one has its own switch. Notices cannot be clicked, so they never get in the way of a game
@@ -137,7 +138,7 @@ What the app does and does not do:
 - Linking your Discord account is optional. If you link it, the app talks to the Pryisce server to keep your coins and level.
 - Nothing is injected into a game and no game memory is read.
 - The auto clicker, auto key, always sprint and anti stick drift send normal keyboard and mouse input.
-- Smart AutoKey only looks at a picture of the bottom of the BedWars screen, and only while BedWars is the window in front.
+- Smart AutoKey and the fight log only look at a picture of the BedWars screen, and only while BedWars is the window in front. The fight log asks Roblox's public search for the username behind a display name.
 - The crosshair replaces three pointer pictures in the Roblox folder, keeps the originals, and puts them back when you detach it.
 - Every tweak is saved in a snapshot first and can be undone.
 - Updates are signed, so a copy only accepts updates from the publisher.
