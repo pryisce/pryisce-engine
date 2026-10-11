@@ -1,97 +1,107 @@
 <div align="center">
 
+<img src="docs/emblem.png" width="120" alt="">
+
 # Pryisce Engine
 
-A free Windows app for PC gamers, made mostly for Roblox. It shows your real ping and fps,
-tells you what is causing lag, and has the tweaks and tools to fix it.
+A free Windows app for PC gamers, made mostly for Roblox.<br>
+It measures your ping, fps and temperatures, shows where lag comes from, and has the tweaks and tools to fix it.
 
 [![Latest version](https://img.shields.io/github/v/release/pryisce/pryisce-engine?label=latest&color=FF2E97&style=for-the-badge)](https://github.com/pryisce/pryisce-engine/releases/latest)
 [![Downloads](https://img.shields.io/github/downloads/pryisce/pryisce-engine/total?color=A24DFF&style=for-the-badge)](https://github.com/pryisce/pryisce-engine/releases)
 ![Windows 10 and 11](https://img.shields.io/badge/Windows-10%20%7C%2011-1f1f2e?style=for-the-badge)
 
-**[Download](https://github.com/pryisce/pryisce-engine/releases/latest)** &nbsp;·&nbsp; **[Patch notes](https://github.com/pryisce/pryisce-engine/releases)** &nbsp;·&nbsp; **[Is it safe?](#is-it-safe)**
+**[Download](https://github.com/pryisce/pryisce-engine/releases/latest)** &nbsp;·&nbsp; **[Patch notes](https://github.com/pryisce/pryisce-engine/releases)** &nbsp;·&nbsp; **[Install](#install)** &nbsp;·&nbsp; **[Is it safe?](#is-it-safe)**
 
-[![Watch the video on YouTube](docs/film-preview.gif)](https://youtu.be/MPpSFRBb1kM)
-
-[![Watch the video on YouTube](https://img.shields.io/badge/Watch%20the%20video-YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white)](https://youtu.be/MPpSFRBb1kM)
+![Overview](docs/screens/overview.jpg)
 
 </div>
 
-## Ping, fps and temps
+## What is in it
 
-![Live](docs/live.jpg)
+| | |
+|---|---|
+| **Measure** | Live ping, Frame Time, Sensors, Background programs |
+| **Find lag** | Diagnostics, Fair Play |
+| **Fix it** | Advisor, Profiles, Tweaks, Frame Generation, Tools |
+| **Check it worked** | Benchmark, History, Snapshots |
+| **Roblox** | Server globe, Auto Clicker, BedWars, Crosshair, Discord card |
+
+## Measure
 
 <table>
 <tr>
-<td width="50%"><img src="docs/frame-time.jpg" alt="Frame Time"></td>
-<td width="50%"><img src="docs/sensors.jpg" alt="Sensors"></td>
+<td width="50%"><img src="docs/screens/sensors.jpg" alt="Sensors"></td>
+<td width="50%"><img src="docs/screens/live.jpg" alt="Live"></td>
 </tr>
 </table>
 
-- **Live**: ping to the game server you are actually on, five times a second, and where on the route the delay is
+- **Live**: ping to the game server you are on, five times a second, and which part of the route the delay is on
 - **Frame Time**: fps ten times a second, with the lows and every freeze
-- **Sensors**: temperatures, clock speeds, power and fans, no driver needed
-- **Background**: which programs are eating performance while you play, with a button to pause them
+- **Sensors**: temperature and load dials for the graphics card and processor, plus clock, power and fan. No driver needed
+- **Background**: which programs are using your PC while you play, with a button to pause them
 
-## Finding lag
+## Find lag
 
-![Diagnostics](docs/diagnostics.jpg)
+![Diagnostics](docs/screens/diagnostics.jpg)
 
-- **Diagnostics**: six troubleshooters that go through the usual causes one by one
+- **Diagnostics**: six troubleshooters (fps dropping, high ping, stutter, disconnects, overheating, game not detected) that check the usual causes one by one
 - **Fair Play**: tells you if a ping spike came from your router, your internet provider or the game server
 
-## Tweaks
+## Fix it
 
-<table>
-<tr>
-<td width="50%"><img src="docs/tweaks.jpg" alt="Tweaks"></td>
-<td width="50%"><img src="docs/profiles.jpg" alt="Profiles"></td>
-</tr>
-</table>
+![Profiles](docs/screens/profiles.jpg)
 
-- **Advisor**: suggests tweaks that fit your PC and says how much each one helps and what the risk is
+- **Profiles**: type how you play, like "ranked BedWars, lowest delay, pause Chrome", and the app builds the profile and shows what it understood before you keep it. You can also build one switch by switch. Make as many as you want. A profile starts with the game and everything it changed is undone when the game closes
+- **Advisor**: scans your PC and suggests only the tweaks that fit it, with how much each one helps and what the risk is
 - **Tweaks**: eighty Windows and network tweaks, each one explained, each one can be undone
-- **Profiles**: settings that switch on when a game starts and off when it closes
 - **Frame Generation**: extra frames for Roblox
 - **Tools**: one-off jobs like clearing caches
 
-## Benchmark and undo
+![Tweaks](docs/screens/tweaks.jpg)
+
+## Check it worked
 
 <table>
 <tr>
-<td width="50%"><img src="docs/benchmark.jpg" alt="Benchmark"></td>
-<td width="50%"><img src="docs/snapshots.jpg" alt="Snapshots"></td>
+<td width="50%"><img src="docs/screens/benchmark.jpg" alt="Benchmark"></td>
+<td width="50%"><img src="docs/screens/snapshots.jpg" alt="Snapshots"></td>
 </tr>
 </table>
 
-- **Benchmark**: timed runs before and after a tweak, next to each other
-- **History**: every session is recorded and can be played back
-- **Snapshots**: your PC's settings are saved before each change, so you can go back
+- **Benchmark**: timed runs before and after a change, next to each other
+- **History**: every session is saved and can be played back
+- **Snapshots**: your settings are saved before each change, so you can go back
 
 ## Roblox
 
-![Server globe](docs/globe.jpg)
+![Server globe](docs/screens/globe.jpg)
 
 - **Server globe**: when you join or teleport, a 3D globe shows which data centre you are connecting to, until you have loaded in
 
 <table>
 <tr>
-<td width="50%"><img src="docs/auto-clicker.jpg" alt="Auto Clicker"></td>
-<td width="50%"><img src="docs/crosshair.jpg" alt="Crosshair"></td>
+<td width="50%"><img src="docs/screens/auto-clicker.jpg" alt="Auto Clicker"></td>
+<td width="50%"><img src="docs/screens/bedwars.jpg" alt="BedWars"></td>
+</tr>
+<tr>
+<td width="50%"><img src="docs/screens/crosshair.jpg" alt="Crosshair"></td>
+<td width="50%"><img src="docs/screens/discord.jpg" alt="Discord"></td>
 </tr>
 </table>
 
-- **Auto Clicker**: no speed cap, evenly timed clicks, auto key swap with an on/off key and an off key, and a BedWars tuner that finds your best settings
-- **Crosshair**: swaps the Roblox mouse pointer for a crosshair you pick, at the size you pick
-- **BedWars**: always sprint and anti stick drift
-- **Discord**: shows Pryisce Engine on your Discord profile, with your own text, picture and buttons
+- **Auto Clicker**: no speed cap and evenly timed clicks. Three timing levels (Light, Normal, Exact), an option that stops Windows slowing it down behind the game, and a readout of how far off the beat the last burst was
+- **BedWars**: auto key swap with an on/off key and an off key, Smart AutoKey, a tuner that finds your best settings, always sprint and anti stick drift. The tab only shows while you are in BedWars
+- **Crosshair**: swaps the Roblox mouse pointer for a crosshair you make or pick, at the size you pick
+- **Discord**: shows Pryisce Engine on your Discord profile with your own text and picture
 
 ## Settings
 
-![24 colour palettes](docs/palettes.jpg)
+![24 colour palettes](docs/screens/palettes.jpg)
 
-- **Settings**: in-game overlay, hotkeys, sounds and 24 colour palettes
-- **Overview** and **Games**: the game you are in on one screen, and your library with a profile per game
+- **Look**: 24 colour palettes. Switches, sliders and meters follow the colour you pick
+- **Notifications**: a small notice in the corner for the things you choose: heat warnings, a profile starting, a finished benchmark, ping spikes, frame freezes, a new server. Each one has its own switch. Notices cannot be clicked, so they never get in the way of a game
+- **In-game overlay, hotkeys and sounds**
 - **Updates**: close the app and open it again to get the newest version
 
 ## Install
@@ -121,11 +131,13 @@ To check your own download, search this SHA-256 on [virustotal.com](https://www.
 | SHA-256 | `DB84EFC3DC7C17EC17F627B72A12594287CA31EC364824D1E8A5193CCB33AF95` |
 <!-- scan:end -->
 
-What the app does:
+What the app does and does not do:
 
-- No account, no telemetry, no data collected.
+- No telemetry. You do not need an account to use it.
+- Linking your Discord account is optional. If you link it, the app talks to the Pryisce server to keep your coins and level.
 - Nothing is injected into a game and no game memory is read.
-- The auto clicker, always sprint and anti stick drift send normal keyboard and mouse input.
+- The auto clicker, auto key, always sprint and anti stick drift send normal keyboard and mouse input.
+- Smart AutoKey only looks at a picture of the bottom of the BedWars screen, and only while BedWars is the window in front.
 - The crosshair replaces three pointer pictures in the Roblox folder, keeps the originals, and puts them back when you detach it.
 - Every tweak is saved in a snapshot first and can be undone.
 - Updates are signed, so a copy only accepts updates from the publisher.
