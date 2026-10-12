@@ -119,7 +119,7 @@ Scan reports you can open yourself:
 | Scanner | Result | What was scanned | |
 |---|---|---|---|
 | **VirusTotal** | **0 of 65** security vendors flagged it | `PryisceEngine-0.0.45.zip`, the whole download | [**Open the report**](https://www.virustotal.com/gui/file/fe708cc3abc98b878e4930e5485e3e6904c0ea7acd2a33f85b3ca80ac296b079) |
-| **Triage sandbox** | **1 / 10**, where 10 is known malware | `PryisceEngine-0.0.45.zip`, the whole download | [**Open the report**](https://tria.ge/261012-xrm9sshy2p) |
+| **Triage sandbox** | **1 / 10**, where 10 is known malware | `Pryisce.exe`, version 0.0.45 | [**Open the report**](https://tria.ge/261012-xwztdszscy) |
 
 Scanned 12 October 2026. Each report is for the version it names; every release is a new file.
 
