@@ -15,6 +15,12 @@ It measures your ping, fps and temperatures, shows where lag comes from, and has
 
 ![Overview](docs/v3/overview.jpg)
 
+### Watch it
+
+[![Pryisce Engine in five minutes: moments from the video](docs/film-youtube.gif)](https://www.youtube.com/watch?v=L5x62S6QnsI)
+
+[![Watch on YouTube](https://img.shields.io/badge/Watch%20the%20full%20video-YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white)](https://www.youtube.com/watch?v=L5x62S6QnsI)
+
 </div>
 
 ## What is in it
