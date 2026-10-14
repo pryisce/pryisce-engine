@@ -4,15 +4,15 @@
 
 [![Watch on YouTube](https://img.shields.io/badge/Watch%20the%20full%20video-YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white)](https://www.youtube.com/watch?v=L5x62S6QnsI)
 
-<img src="docs/emblem.png" width="120" alt="">
+<img src="docs/emblem/white.png" width="120" alt="">
 
 # Pryisce Engine
 
 A free Windows app for PC gamers, made mostly for Roblox.<br>
 It measures your ping, fps and temperatures, shows where lag comes from, and has the tweaks and tools to fix it.
 
-[![Latest version](https://img.shields.io/github/v/release/pryisce/pryisce-engine?label=latest&color=FF2E97&style=for-the-badge)](https://github.com/pryisce/pryisce-engine/releases/latest)
-[![Downloads](https://img.shields.io/github/downloads/pryisce/pryisce-engine/total?color=A24DFF&style=for-the-badge)](https://github.com/pryisce/pryisce-engine/releases)
+[![Latest version](https://img.shields.io/github/v/release/pryisce/pryisce-engine?label=latest&color=F2F3F5&style=for-the-badge)](https://github.com/pryisce/pryisce-engine/releases/latest)
+[![Downloads](https://img.shields.io/github/downloads/pryisce/pryisce-engine/total?color=9AA0AA&style=for-the-badge)](https://github.com/pryisce/pryisce-engine/releases)
 ![Windows 10 and 11](https://img.shields.io/badge/Windows-10%20%7C%2011-1f1f2e?style=for-the-badge)
 
 **[Download](https://github.com/pryisce/pryisce-engine/releases/latest)** &nbsp;·&nbsp; **[Patch notes](https://github.com/pryisce/pryisce-engine/releases)** &nbsp;·&nbsp; **[Install](#install)** &nbsp;·&nbsp; **[Is it safe?](#is-it-safe)**
