@@ -9,15 +9,16 @@
 # Pryisce Engine
 
 A free Windows app for PC gamers, made mostly for Roblox.<br>
-It measures your ping, fps and temperatures, shows where lag comes from, and has the tweaks and tools to fix it.
+It measures your ping, fps and temperatures, shows where lag comes from, and has the tweaks and tools to fix it.<br>
+**One file now:** download `Pryisce.exe` and run it. Nothing to unzip, nothing to install.
 
 [![Latest version](https://img.shields.io/github/v/release/pryisce/pryisce-engine?label=latest&color=F2F3F5&style=for-the-badge)](https://github.com/pryisce/pryisce-engine/releases/latest)
 [![Downloads](https://img.shields.io/github/downloads/pryisce/pryisce-engine/total?color=9AA0AA&style=for-the-badge)](https://github.com/pryisce/pryisce-engine/releases)
 ![Windows 10 and 11](https://img.shields.io/badge/Windows-10%20%7C%2011-1f1f2e?style=for-the-badge)
 
-**[Download](https://github.com/pryisce/pryisce-engine/releases/latest)** &nbsp;·&nbsp; **[Patch notes](https://github.com/pryisce/pryisce-engine/releases)** &nbsp;·&nbsp; **[Install](#install)** &nbsp;·&nbsp; **[Is it safe?](#is-it-safe)**
+**[Download](https://github.com/pryisce/pryisce-engine/releases/latest)** &nbsp;Â·&nbsp; **[Patch notes](https://github.com/pryisce/pryisce-engine/releases)** &nbsp;Â·&nbsp; **[Install](#install)** &nbsp;Â·&nbsp; **[Is it safe?](#is-it-safe)**
 
-![Overview](docs/v3/overview.jpg)
+![Overview](docs/v4/overview.jpg)
 
 </div>
 
@@ -27,16 +28,28 @@ It measures your ping, fps and temperatures, shows where lag comes from, and has
 |---|---|
 | **Measure** | Live ping, Frame Time, Sensors, Background programs |
 | **Find lag** | Diagnostics, Fair Play |
-| **Fix it** | Advisor, Profiles, Tweaks, Frame Generation, Tools |
+| **Fix it** | Advisor, Profiles, Tweaks, Mods, Frame Generation, Tools |
 | **Check it worked** | Benchmark, History, Snapshots |
-| **Roblox** | Server globe, Auto Clicker, BedWars, Crosshair, Discord card |
+| **BedWars** | Auto Kit for 16 kits, a play screen, Auto Clicker, auto key |
+| **Roblox** | Server globe, Crosshair, Discord card |
+| **Make it yours** | Appstore looks, Account, Pryisce Coins |
+
+## Auto Kit
+
+![Auto Kit](docs/v4/autokit.jpg)
+
+Switch on the kit you are playing and Auto Kit helps with its ability: it presses the game's own prompt, times the ability, or plays a sound so you know the moment is right. It reads the screen the way your eyes do and uses your own keys â€” nothing goes into the game. 16 kits:
+
+**Eldertree** Â· **Beekeeper Beatrix** Â· **Nyx** Â· **Zeno** Â· **Void Regent** Â· **Void Knight** Â· **Star Collector Stella** Â· **Skoll** Â· **Metal Detector** Â· **Nazar** Â· **Martin** Â· **Kaliyah** Â· **Grim Reaper** Â· **Hannah** Â· **Evelynn** Â· **Pirate Davey**
+
+Every kit has its own card and its own settings, and you can add your own skin pictures so it reads your look.
 
 ## Measure
 
 <table>
 <tr>
-<td width="50%"><img src="docs/v3/sensors.jpg" alt="Sensors"></td>
-<td width="50%"><img src="docs/v3/live.jpg" alt="Live"></td>
+<td width="50%"><img src="docs/v4/sensors.jpg" alt="Sensors"></td>
+<td width="50%"><img src="docs/v4/live.jpg" alt="Live"></td>
 </tr>
 </table>
 
@@ -47,29 +60,35 @@ It measures your ping, fps and temperatures, shows where lag comes from, and has
 
 ## Find lag
 
-![Diagnostics](docs/v3/diagnostics.jpg)
+![Diagnostics](docs/v4/diagnostics.jpg)
 
 - **Diagnostics**: six troubleshooters (fps dropping, high ping, stutter, disconnects, overheating, game not detected) that check the usual causes one by one
 - **Fair Play**: tells you if a ping spike came from your router, your internet provider or the game server
 
 ## Fix it
 
-![Profiles](docs/v3/profiles.jpg)
+![Profiles](docs/v4/profiles.jpg)
 
 - **Profiles**: type how you play, like "ranked BedWars, lowest delay, pause Chrome", and the app builds the profile and shows what it understood before you keep it. You can also build one switch by switch. Make as many as you want. A profile starts with the game and everything it changed is undone when the game closes
 - **Advisor**: scans your PC and suggests only the tweaks that fit it, with how much each one helps and what the risk is
 - **Tweaks**: eighty Windows and network tweaks, each one explained, each one can be undone
+- **Mods**: set how Roblox looks, from blurriest-and-fastest to sharpest, with a real before-and-after picture for every step
 - **Frame Generation**: extra frames for Roblox
 - **Tools**: one-off jobs like clearing caches
 
-![Tweaks](docs/v3/tweaks.jpg)
+<table>
+<tr>
+<td width="50%"><img src="docs/v4/tweaks.jpg" alt="Tweaks"></td>
+<td width="50%"><img src="docs/v4/mods.jpg" alt="Mods"></td>
+</tr>
+</table>
 
 ## Check it worked
 
 <table>
 <tr>
-<td width="50%"><img src="docs/v3/benchmark.jpg" alt="Benchmark"></td>
-<td width="50%"><img src="docs/v3/snapshots.jpg" alt="Snapshots"></td>
+<td width="50%"><img src="docs/v4/benchmark.jpg" alt="Benchmark"></td>
+<td width="50%"><img src="docs/v4/snapshots.jpg" alt="Snapshots"></td>
 </tr>
 </table>
 
@@ -77,7 +96,7 @@ It measures your ping, fps and temperatures, shows where lag comes from, and has
 - **History**: every session is saved and can be played back
 - **Snapshots**: your settings are saved before each change, so you can go back
 
-## Roblox
+## Roblox and BedWars
 
 ![Server globe](docs/v3/globe.jpg)
 
@@ -85,36 +104,49 @@ It measures your ping, fps and temperatures, shows where lag comes from, and has
 
 <table>
 <tr>
-<td width="50%"><img src="docs/v3/auto-clicker.jpg" alt="Auto Clicker"></td>
-<td width="50%"><img src="docs/v3/bedwars.jpg" alt="BedWars"></td>
+<td width="50%"><img src="docs/v4/bedwars.jpg" alt="BedWars"></td>
+<td width="50%"><img src="docs/v4/auto-clicker.jpg" alt="Auto Clicker"></td>
 </tr>
 <tr>
-<td width="50%"><img src="docs/v3/crosshair.jpg" alt="Crosshair"></td>
-<td width="50%"><img src="docs/v3/discord.jpg" alt="Discord"></td>
+<td width="50%"><img src="docs/v4/crosshair.jpg" alt="Crosshair"></td>
+<td width="50%"><img src="docs/v4/discord.jpg" alt="Discord"></td>
 </tr>
 </table>
 
+- **BedWars**: a play screen with a Play button that opens the game, your time played today and the round objectives; Auto Kit (above); auto key swap with an on/off key and an off key, Smart AutoKey, always sprint and anti stick drift; and a one-press tuner that finds your best sword speed and then your best swap timing
 - **Auto Clicker**: no speed cap and evenly timed clicks. Three timing levels (Light, Normal, Exact), an option that stops Windows slowing it down behind the game, and a readout of how far off the beat the last burst was
-- **BedWars**: auto key swap with an on/off key and an off key, Smart AutoKey, always sprint and anti stick drift. One press of the tuner finds your best sword speed and then your best swap timing. The tab only shows while you are in BedWars
 - **Fight log** (BedWars, off until you switch it on): counts the hits you take from your own health bar, reads who you fought from the name tag and the kill feed, and marks fights where hits came faster than the game allows. Fights on a bad ping are never marked. It only looks at your screen
 - **Crosshair**: swaps the Roblox mouse pointer for a crosshair you make or pick, at the size you pick
 - **Discord**: shows Pryisce Engine on your Discord profile with your own text and picture
 
+## Make it yours
+
+<table>
+<tr>
+<td width="50%"><img src="docs/v4/appstore.jpg" alt="Appstore"></td>
+<td width="50%"><img src="docs/v4/account.jpg" alt="Account"></td>
+</tr>
+</table>
+
+- **Appstore**: window edges, button and bar effects and page backgrounds are looks you put on. The free ones go on at once; the rest cost Pryisce Coins, with 60 to collect. Each one plays in front of you before you pick it, and what you put on is yours for good
+- **Account**: link your Roblox name to see your avatar, your coins and the looks you own. Pryisce Coins add up for every minute Pryisce Engine runs while your Discord is linked
+
 ## Settings
 
-![24 colour palettes](docs/v3/palettes.jpg)
+![Settings](docs/v4/settings.jpg)
 
-- **Look**: 24 colour palettes. Switches, sliders and meters follow the colour you pick. The side bar shows eight rows; the other pages open from four groups
+- **Look**: 24 colour palettes, plus the Appstore looks. Switches, sliders and meters follow the colour you pick. The side bar shows eight rows; the other pages open from four groups
 - **Notifications**: a small notice in the corner for the things you choose: heat warnings, a profile starting, a finished benchmark, ping spikes, frame freezes, a new server. Each one has its own switch. Notices cannot be clicked, so they never get in the way of a game
 - **In-game overlay, hotkeys and sounds**
+- **A walk-through tutorial** of every page, with a colour picker, progress dots and arrow keys
 - **Updates**: close the app and open it again to get the newest version
 
 ## Install
 
-1. Download `PryisceEngine-x.y.z.zip` from the [latest release](https://github.com/pryisce/pryisce-engine/releases/latest).
-2. Unzip it anywhere and run `Pryisce.exe`.
+1. Download `Pryisce.exe` from the [latest release](https://github.com/pryisce/pryisce-engine/releases/latest).
+2. Run it. One file, nothing to unzip or install.
 
-Needs Windows 10 or 11 (64-bit) and the [.NET 10 Desktop Runtime](https://dotnet.microsoft.com/download/dotnet/10.0).
+Copies you already have update themselves the next time they start. Needs Windows 10 or 11 (64-bit). Nothing else to install â€” the runtime is packed inside the file.
 
 ## Is it safe?
 
@@ -129,7 +161,7 @@ Scan reports you can open yourself:
 
 Scanned 18 October 2026. Each report is for the version it names; every release is a new file.
 
-To check your own download, search this SHA-256 on [virustotal.com](https://www.virustotal.com/gui/home/search) or upload the zip there.
+To check your own download, search this SHA-256 on [virustotal.com](https://www.virustotal.com/gui/home/search) or upload the file there.
 
 <!-- scan:start -->
 | | |
@@ -141,10 +173,10 @@ To check your own download, search this SHA-256 on [virustotal.com](https://www.
 What the app does and does not do:
 
 - No telemetry. You do not need an account to use it.
-- Linking your Discord account is optional. If you link it, the app talks to the Pryisce server to keep your coins and level.
+- Linking your Discord account is optional. If you link it, the app talks to the Pryisce server to keep your coins and the looks you own.
 - Nothing is injected into a game and no game memory is read.
 - The auto clicker, auto key, always sprint and anti stick drift send normal keyboard and mouse input.
-- Smart AutoKey and the fight log only look at a picture of the BedWars screen, and only while BedWars is the window in front. The fight log asks Roblox's public search for the username behind a display name.
+- Auto Kit, Smart AutoKey and the fight log only look at a picture of the BedWars screen, and only while BedWars is the window in front. Auto Kit presses your own keys; it never reaches into the game. The fight log asks Roblox's public search for the username behind a display name.
 - The crosshair replaces three pointer pictures in the Roblox folder, keeps the originals, and puts them back when you detach it.
 - Every tweak is saved in a snapshot first and can be undone.
 - Updates are signed, so a copy only accepts updates from the publisher.
