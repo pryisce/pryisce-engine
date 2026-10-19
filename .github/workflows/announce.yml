@@ -1,9 +1,4 @@
-# Goes into the PUBLIC repository (pryisce/pryisce-engine) as .github/workflows/announce.yml
-#
-# When a release is published, posts it in the Discord updates channel through a webhook.
-# Needs one repository secret: DISCORD_WEBHOOK_URL (Discord > the updates channel > Edit Channel >
-# Integrations > Webhooks > New Webhook > Copy Webhook URL). Nothing else; the bot token is not used here.
-# No ping is sent. It can also be started by hand for one version (Actions > Announce a release > Run workflow).
+
 name: Announce a release
 
 on:
