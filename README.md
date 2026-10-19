@@ -122,10 +122,12 @@ Scan reports you can open yourself:
 
 | Scanner | Result | What was scanned | |
 |---|---|---|---|
-| **VirusTotal** | **0 of 66** security vendors flagged it | `PryisceEngine-1.0.0.zip`, the whole download | [**Open the report**](https://www.virustotal.com/gui/file/fb27428c485f454186eaa257adef8e471ead0710bef700ade94fe02153a59563) |
+| **VirusTotal** | **0 of 70** security vendors flagged it | `Pryisce.exe`, the current build | [**Open the report**](https://www.virustotal.com/gui/file/66028f464e848c7d86b2a32e97598696a2a4872c9c2a521db4fd3d5efec7c4a7) |
 | **Triage sandbox** | **1 / 10**, where 10 is known malware | `Pryisce.exe`, an earlier version | [**Open the report**](https://tria.ge/261012-xwztdszscy) |
 
-Scanned 12 October 2026. Each report is for the version it names; every release is a new file.
+![VirusTotal: 0 of 70 security vendors flagged Pryisce.exe](docs/virustotal.jpg)
+
+Scanned 18 October 2026. Each report is for the version it names; every release is a new file.
 
 To check your own download, search this SHA-256 on [virustotal.com](https://www.virustotal.com/gui/home/search) or upload the zip there.
 
