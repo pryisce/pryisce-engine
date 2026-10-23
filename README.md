@@ -4,7 +4,7 @@
 
 [![Watch on YouTube](https://img.shields.io/badge/Watch%20the%20full%20video-YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white)](https://www.youtube.com/watch?v=L5x62S6QnsI)
 
-<img src="docs/emblem/white.png" width="120" alt="">
+<img src="docs/emblem/royal.png" width="120" alt="">
 
 # Pryisce Engine
 
@@ -12,13 +12,13 @@ A free Windows app for PC gamers, made mostly for Roblox.<br>
 It measures your ping, fps and temperatures, shows where lag comes from, and has the tweaks and tools to fix it.<br>
 **One file now:** download `Pryisce.exe` and run it. Nothing to unzip, nothing to install.
 
-[![Latest version](https://img.shields.io/github/v/release/pryisce/pryisce-engine?label=latest&color=F2F3F5&style=for-the-badge)](https://github.com/pryisce/pryisce-engine/releases/latest)
-[![Downloads](https://img.shields.io/github/downloads/pryisce/pryisce-engine/total?color=9AA0AA&style=for-the-badge)](https://github.com/pryisce/pryisce-engine/releases)
+[![Latest version](https://img.shields.io/github/v/release/pryisce/pryisce-engine?label=latest&color=3B63F2&style=for-the-badge)](https://github.com/pryisce/pryisce-engine/releases/latest)
+[![Downloads](https://img.shields.io/github/downloads/pryisce/pryisce-engine/total?color=6F8CFF&style=for-the-badge)](https://github.com/pryisce/pryisce-engine/releases)
 ![Windows 10 and 11](https://img.shields.io/badge/Windows-10%20%7C%2011-1f1f2e?style=for-the-badge)
 
 **[Download](https://github.com/pryisce/pryisce-engine/releases/latest)** &nbsp;Â·&nbsp; **[Patch notes](https://github.com/pryisce/pryisce-engine/releases)** &nbsp;Â·&nbsp; **[Install](#install)** &nbsp;Â·&nbsp; **[Is it safe?](#is-it-safe)**
 
-![Overview](docs/v4/overview.jpg)
+![Overview](docs/v5/overview.jpg)
 
 </div>
 
@@ -36,7 +36,7 @@ It measures your ping, fps and temperatures, shows where lag comes from, and has
 
 ## Auto Kit
 
-![Auto Kit](docs/v4/autokit.jpg)
+![Auto Kit](docs/v5/autokit.jpg)
 
 Switch on the kit you are playing and Auto Kit helps with its ability: it presses the game's own prompt, times the ability, or plays a sound so you know the moment is right. It reads the screen the way your eyes do and uses your own keys â€” nothing goes into the game. 16 kits:
 
@@ -48,8 +48,8 @@ Every kit has its own card and its own settings, and you can add your own skin p
 
 <table>
 <tr>
-<td width="50%"><img src="docs/v4/sensors.jpg" alt="Sensors"></td>
-<td width="50%"><img src="docs/v4/live.jpg" alt="Live"></td>
+<td width="50%"><img src="docs/v5/sensors.jpg" alt="Sensors"></td>
+<td width="50%"><img src="docs/v5/live.jpg" alt="Live"></td>
 </tr>
 </table>
 
@@ -60,14 +60,14 @@ Every kit has its own card and its own settings, and you can add your own skin p
 
 ## Find lag
 
-![Diagnostics](docs/v4/diagnostics.jpg)
+![Diagnostics](docs/v5/diagnostics.jpg)
 
 - **Diagnostics**: six troubleshooters (fps dropping, high ping, stutter, disconnects, overheating, game not detected) that check the usual causes one by one
 - **Fair Play**: tells you if a ping spike came from your router, your internet provider or the game server
 
 ## Fix it
 
-![Profiles](docs/v4/profiles.jpg)
+![Profiles](docs/v5/profiles.jpg)
 
 - **Profiles**: type how you play, like "ranked BedWars, lowest delay, pause Chrome", and the app builds the profile and shows what it understood before you keep it. You can also build one switch by switch. Make as many as you want. A profile starts with the game and everything it changed is undone when the game closes
 - **Advisor**: scans your PC and suggests only the tweaks that fit it, with how much each one helps and what the risk is
@@ -78,8 +78,8 @@ Every kit has its own card and its own settings, and you can add your own skin p
 
 <table>
 <tr>
-<td width="50%"><img src="docs/v4/tweaks.jpg" alt="Tweaks"></td>
-<td width="50%"><img src="docs/v4/mods.jpg" alt="Mods"></td>
+<td width="50%"><img src="docs/v5/tweaks.jpg" alt="Tweaks"></td>
+<td width="50%"><img src="docs/v5/mods.jpg" alt="Mods"></td>
 </tr>
 </table>
 
@@ -87,8 +87,8 @@ Every kit has its own card and its own settings, and you can add your own skin p
 
 <table>
 <tr>
-<td width="50%"><img src="docs/v4/benchmark.jpg" alt="Benchmark"></td>
-<td width="50%"><img src="docs/v4/snapshots.jpg" alt="Snapshots"></td>
+<td width="50%"><img src="docs/v5/benchmark.jpg" alt="Benchmark"></td>
+<td width="50%"><img src="docs/v5/snapshots.jpg" alt="Snapshots"></td>
 </tr>
 </table>
 
@@ -104,12 +104,12 @@ Every kit has its own card and its own settings, and you can add your own skin p
 
 <table>
 <tr>
-<td width="50%"><img src="docs/v4/bedwars.jpg" alt="BedWars"></td>
-<td width="50%"><img src="docs/v4/auto-clicker.jpg" alt="Auto Clicker"></td>
+<td width="50%"><img src="docs/v5/bedwars.jpg" alt="BedWars"></td>
+<td width="50%"><img src="docs/v5/auto-clicker.jpg" alt="Auto Clicker"></td>
 </tr>
 <tr>
-<td width="50%"><img src="docs/v4/crosshair.jpg" alt="Crosshair"></td>
-<td width="50%"><img src="docs/v4/discord.jpg" alt="Discord"></td>
+<td width="50%"><img src="docs/v5/crosshair.jpg" alt="Crosshair"></td>
+<td width="50%"><img src="docs/v5/discord.jpg" alt="Discord"></td>
 </tr>
 </table>
 
@@ -123,8 +123,8 @@ Every kit has its own card and its own settings, and you can add your own skin p
 
 <table>
 <tr>
-<td width="50%"><img src="docs/v4/appstore.jpg" alt="Appstore"></td>
-<td width="50%"><img src="docs/v4/account.jpg" alt="Account"></td>
+<td width="50%"><img src="docs/v5/appstore.jpg" alt="Appstore"></td>
+<td width="50%"><img src="docs/v5/account.jpg" alt="Account"></td>
 </tr>
 </table>
 
@@ -133,9 +133,9 @@ Every kit has its own card and its own settings, and you can add your own skin p
 
 ## Settings
 
-![Settings](docs/v4/settings.jpg)
+![Settings](docs/v5/settings.jpg)
 
-- **Look**: 24 colour palettes, plus the Appstore looks. Switches, sliders and meters follow the colour you pick. The side bar shows eight rows; the other pages open from four groups
+- **Look**: 24 colour palettes (royal blue by default), plus the Appstore looks. Switches, sliders and meters follow the colour you pick. The side bar shows eight rows; the other pages open from four groups
 - **Notifications**: a small notice in the corner for the things you choose: heat warnings, a profile starting, a finished benchmark, ping spikes, frame freezes, a new server. Each one has its own switch. Notices cannot be clicked, so they never get in the way of a game
 - **In-game overlay, hotkeys and sounds**
 - **A walk-through tutorial** of every page, with a colour picker, progress dots and arrow keys
