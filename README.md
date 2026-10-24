@@ -16,7 +16,7 @@ It measures your ping, fps and temperatures, shows where lag comes from, and has
 [![Downloads](https://img.shields.io/github/downloads/pryisce/pryisce-engine/total?color=6F8CFF&style=for-the-badge)](https://github.com/pryisce/pryisce-engine/releases)
 ![Windows 10 and 11](https://img.shields.io/badge/Windows-10%20%7C%2011-1f1f2e?style=for-the-badge)
 
-**[Download](https://github.com/pryisce/pryisce-engine/releases/latest)** &nbsp;Â·&nbsp; **[Patch notes](https://github.com/pryisce/pryisce-engine/releases)** &nbsp;Â·&nbsp; **[Install](#install)** &nbsp;Â·&nbsp; **[Is it safe?](#is-it-safe)**
+**[Download](https://github.com/pryisce/pryisce-engine/releases/latest)** &nbsp;·&nbsp; **[Patch notes](https://github.com/pryisce/pryisce-engine/releases)** &nbsp;·&nbsp; **[Install](#install)** &nbsp;·&nbsp; **[Is it safe?](#is-it-safe)**
 
 ![Overview](docs/v5/overview.jpg)
 
@@ -38,9 +38,9 @@ It measures your ping, fps and temperatures, shows where lag comes from, and has
 
 ![Auto Kit](docs/v5/autokit.jpg)
 
-Switch on the kit you are playing and Auto Kit helps with its ability: it presses the game's own prompt, times the ability, or plays a sound so you know the moment is right. It reads the screen the way your eyes do and uses your own keys â€” nothing goes into the game. 16 kits:
+Switch on the kit you are playing and Auto Kit helps with its ability: it presses the game's own prompt, times the ability, or plays a sound so you know the moment is right. It reads the screen the way your eyes do and uses your own keys — nothing goes into the game. 16 kits:
 
-**Eldertree** Â· **Beekeeper Beatrix** Â· **Nyx** Â· **Zeno** Â· **Void Regent** Â· **Void Knight** Â· **Star Collector Stella** Â· **Skoll** Â· **Metal Detector** Â· **Nazar** Â· **Martin** Â· **Kaliyah** Â· **Grim Reaper** Â· **Hannah** Â· **Evelynn** Â· **Pirate Davey**
+**Eldertree** · **Beekeeper Beatrix** · **Nyx** · **Zeno** · **Void Regent** · **Void Knight** · **Star Collector Stella** · **Skoll** · **Metal Detector** · **Nazar** · **Martin** · **Kaliyah** · **Grim Reaper** · **Hannah** · **Evelynn** · **Pirate Davey**
 
 Every kit has its own card and its own settings, and you can add your own skin pictures so it reads your look.
 
@@ -146,7 +146,7 @@ Every kit has its own card and its own settings, and you can add your own skin p
 1. Download `Pryisce.exe` from the [latest release](https://github.com/pryisce/pryisce-engine/releases/latest).
 2. Run it. One file, nothing to unzip or install.
 
-Copies you already have update themselves the next time they start. Needs Windows 10 or 11 (64-bit). Nothing else to install â€” the runtime is packed inside the file.
+Copies you already have update themselves the next time they start. Needs Windows 10 or 11 (64-bit). Nothing else to install — the runtime is packed inside the file.
 
 ## Is it safe?
 
