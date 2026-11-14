@@ -1,4 +1,3 @@
-
 name: Announce a release
 
 on:
@@ -28,7 +27,6 @@ jobs:
           set -euo pipefail
           if [ -z "$WEBHOOK" ]; then echo "The DISCORD_WEBHOOK_URL secret is not set."; exit 1; fi
           release=$(gh api "repos/$REPOSITORY/releases/tags/$TAG")
-          # The patch notes are the part of the release text under "What's new", up to the line of dashes.
           notes=$(jq -r '.body // ""' <<<"$release" | tr -d '\r' | awk '/^## What.s new/{on=1; next} /^---/{on=0} on' | sed '/^[[:space:]]*$/d' | head -c 3500)
           if [ -z "$notes" ]; then notes="See the release page for what changed."; fi
           jq -n --arg notes "$notes" --arg title "$(jq -r '.name // .tag_name' <<<"$release")" --arg url "$(jq -r '.html_url' <<<"$release")" '{
@@ -37,7 +35,6 @@ jobs:
             embeds: [{ title: $title, url: $url, color: 16723607,
                        description: ("**What'"'"'s new**\n" + $notes + "\n\nCopies you already have update themselves the next time they start.") }]
           }' > message.json
-          # The webhook address is a secret: it is never printed, and neither is what Discord answers.
           code=$(curl -sS -o /dev/null -w '%{http_code}' -H 'Content-Type: application/json' --data @message.json "$WEBHOOK")
           if [ "$code" != "204" ] && [ "$code" != "200" ]; then echo "Discord answered $code"; exit 1; fi
           echo "Announced $TAG."
