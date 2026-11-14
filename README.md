@@ -1,14 +1,10 @@
 <div align="center">
 
-[![Pryisce Engine in five minutes: moments from the video](docs/film-youtube.gif)](https://www.youtube.com/watch?v=L5x62S6QnsI)
-
-[![Watch on YouTube](https://img.shields.io/badge/Watch%20the%20full%20video-YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white)](https://www.youtube.com/watch?v=L5x62S6QnsI)
-
 <img src="docs/emblem/royal.png" width="120" alt="">
 
 # Pryisce Engine
 
-A free Windows app for PC gamers, made mostly for Roblox.<br>
+A free Windows app that tunes your PC for games, Roblox first.<br>
 It measures your ping, fps and temperatures, shows where lag comes from, and has the tweaks and tools to fix it.<br>
 **One file now:** download `Pryisce.exe` and run it. Nothing to unzip, nothing to install.
 
@@ -18,7 +14,7 @@ It measures your ping, fps and temperatures, shows where lag comes from, and has
 
 **[Download](https://github.com/pryisce/pryisce-engine/releases/latest)** &nbsp;·&nbsp; **[Patch notes](https://github.com/pryisce/pryisce-engine/releases)** &nbsp;·&nbsp; **[Install](#install)** &nbsp;·&nbsp; **[Is it safe?](#is-it-safe)**
 
-![Overview](docs/v5/overview.jpg)
+![Tweaks](docs/v5/tweaks.jpg)
 
 </div>
 
@@ -27,22 +23,11 @@ It measures your ping, fps and temperatures, shows where lag comes from, and has
 | | |
 |---|---|
 | **Measure** | Live ping, Frame Time, Sensors, Background programs |
-| **Find lag** | Diagnostics, Fair Play |
+| **Find lag** | Diagnostics |
 | **Fix it** | Advisor, Profiles, Tweaks, Mods, Frame Generation, Tools |
 | **Check it worked** | Benchmark, History, Snapshots |
-| **BedWars** | Auto Kit for 16 kits, a play screen, Auto Clicker, auto key |
-| **Roblox** | Server globe, Crosshair, Discord card |
+| **Roblox** | Mods, Server globe, Discord card |
 | **Make it yours** | Appstore looks, Account, Pryisce Coins |
-
-## Auto Kit
-
-![Auto Kit](docs/v5/autokit.jpg)
-
-Switch on the kit you are playing and Auto Kit helps with its ability: it presses the game's own prompt, times the ability, or plays a sound so you know the moment is right. It reads the screen the way your eyes do and uses your own keys — nothing goes into the game. 16 kits:
-
-**Eldertree** · **Beekeeper Beatrix** · **Nyx** · **Zeno** · **Void Regent** · **Void Knight** · **Star Collector Stella** · **Skoll** · **Metal Detector** · **Nazar** · **Martin** · **Kaliyah** · **Grim Reaper** · **Hannah** · **Evelynn** · **Pirate Davey**
-
-Every kit has its own card and its own settings, and you can add your own skin pictures so it reads your look.
 
 ## Measure
 
@@ -63,77 +48,37 @@ Every kit has its own card and its own settings, and you can add your own skin p
 ![Diagnostics](docs/v5/diagnostics.jpg)
 
 - **Diagnostics**: six troubleshooters (fps dropping, high ping, stutter, disconnects, overheating, game not detected) that check the usual causes one by one
-- **Fair Play**: tells you if a ping spike came from your router, your internet provider or the game server
 
 ## Fix it
 
-![Profiles](docs/v5/profiles.jpg)
-
-- **Profiles**: type how you play, like "ranked BedWars, lowest delay, pause Chrome", and the app builds the profile and shows what it understood before you keep it. You can also build one switch by switch. Make as many as you want. A profile starts with the game and everything it changed is undone when the game closes
+- **Profiles**: type how you play, like "Roblox, lowest delay, pause Chrome", and the app builds the profile and shows what it understood before you keep it. You can also build one switch by switch. Make as many as you want. A profile starts with the game and everything it changed is undone when the game closes
 - **Advisor**: scans your PC and suggests only the tweaks that fit it, with how much each one helps and what the risk is
 - **Tweaks**: eighty Windows and network tweaks, each one explained, each one can be undone
 - **Mods**: set how Roblox looks, from blurriest-and-fastest to sharpest, with a real before-and-after picture for every step
 - **Frame Generation**: extra frames for Roblox
 - **Tools**: one-off jobs like clearing caches
 
-<table>
-<tr>
-<td width="50%"><img src="docs/v5/tweaks.jpg" alt="Tweaks"></td>
-<td width="50%"><img src="docs/v5/mods.jpg" alt="Mods"></td>
-</tr>
-</table>
-
 ## Check it worked
-
-<table>
-<tr>
-<td width="50%"><img src="docs/v5/benchmark.jpg" alt="Benchmark"></td>
-<td width="50%"><img src="docs/v5/snapshots.jpg" alt="Snapshots"></td>
-</tr>
-</table>
 
 - **Benchmark**: timed runs before and after a change, next to each other
 - **History**: every session is saved and can be played back
 - **Snapshots**: your settings are saved before each change, so you can go back
 
-## Roblox and BedWars
+## Roblox
 
 ![Server globe](docs/v3/globe.jpg)
 
 - **Server globe**: when you join or teleport, a 3D globe shows which data centre you are connecting to, until you have loaded in
-
-<table>
-<tr>
-<td width="50%"><img src="docs/v5/bedwars.jpg" alt="BedWars"></td>
-<td width="50%"><img src="docs/v5/auto-clicker.jpg" alt="Auto Clicker"></td>
-</tr>
-<tr>
-<td width="50%"><img src="docs/v5/crosshair.jpg" alt="Crosshair"></td>
-<td width="50%"><img src="docs/v5/discord.jpg" alt="Discord"></td>
-</tr>
-</table>
-
-- **BedWars**: a play screen with a Play button that opens the game, your time played today and the round objectives; Auto Kit (above); auto key swap with an on/off key and an off key, Smart AutoKey, always sprint and anti stick drift; and a one-press tuner that finds your best sword speed and then your best swap timing
-- **Auto Clicker**: no speed cap and evenly timed clicks. Three timing levels (Light, Normal, Exact), an option that stops Windows slowing it down behind the game, and a readout of how far off the beat the last burst was
-- **Fight log** (BedWars, off until you switch it on): counts the hits you take from your own health bar, reads who you fought from the name tag and the kill feed, and marks fights where hits came faster than the game allows. Fights on a bad ping are never marked. It only looks at your screen
-- **Crosshair**: swaps the Roblox mouse pointer for a crosshair you make or pick, at the size you pick
 - **Discord**: shows Pryisce Engine on your Discord profile with your own text and picture
 
 ## Make it yours
 
-<table>
-<tr>
-<td width="50%"><img src="docs/v5/appstore.jpg" alt="Appstore"></td>
-<td width="50%"><img src="docs/v5/account.jpg" alt="Account"></td>
-</tr>
-</table>
+![Appstore](docs/v5/appstore.jpg)
 
 - **Appstore**: window edges, button and bar effects and page backgrounds are looks you put on. The free ones go on at once; the rest cost Pryisce Coins, with 60 to collect. Each one plays in front of you before you pick it, and what you put on is yours for good
 - **Account**: link your Roblox name to see your avatar, your coins and the looks you own. Pryisce Coins add up for every minute Pryisce Engine runs while your Discord is linked
 
 ## Settings
-
-![Settings](docs/v5/settings.jpg)
 
 - **Look**: 24 colour palettes (royal blue by default), plus the Appstore looks. Switches, sliders and meters follow the colour you pick. The side bar shows eight rows; the other pages open from four groups
 - **Notifications**: a small notice in the corner for the things you choose: heat warnings, a profile starting, a finished benchmark, ping spikes, frame freezes, a new server. Each one has its own switch. Notices cannot be clicked, so they never get in the way of a game
@@ -175,15 +120,13 @@ What the app does and does not do:
 - No telemetry. You do not need an account to use it.
 - Linking your Discord account is optional. If you link it, the app talks to the Pryisce server to keep your coins and the looks you own.
 - Nothing is injected into a game and no game memory is read.
-- The auto clicker, auto key, always sprint and anti stick drift send normal keyboard and mouse input.
-- Auto Kit, Smart AutoKey and the fight log only look at a picture of the BedWars screen, and only while BedWars is the window in front. Auto Kit presses your own keys; it never reaches into the game. The fight log asks Roblox's public search for the username behind a display name.
-- The crosshair replaces three pointer pictures in the Roblox folder, keeps the originals, and puts them back when you detach it.
+- Mods change Roblox's own settings files, keep the originals, and can be put back with one click.
 - Every tweak is saved in a snapshot first and can be undone.
 - Updates are signed, so a copy only accepts updates from the publisher.
-- It goes online to check GitHub for updates, to look up where a game server is, and to read public Roblox info (names, pictures, crosshair decals).
+- It goes online to check GitHub for updates, to look up where a game server is, and to read public Roblox info (names and pictures).
 
 > [!WARNING]
-> Auto clickers, input helpers and changed game files can be against a game's rules. Using them online is at your own risk and can get an account banned. The ping, fps, diagnostics and tweak features do not touch the game.
+> Changed game files can be against a game's rules. Using Mods online is at your own risk. The ping, fps, diagnostics and tweak features do not touch the game.
 
 ---
 
