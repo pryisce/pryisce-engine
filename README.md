@@ -4,9 +4,10 @@
 
 # Pryisce Engine
 
-A free Windows app that tunes your PC for games, Roblox first.<br>
+The PC part of Pryisce: a free Windows app that tunes your PC for games, Roblox first.<br>
 It measures your ping, fps and temperatures, shows where lag comes from, and has the tweaks and tools to fix it.<br>
-**One file now:** download `Pryisce.exe` and run it. Nothing to unzip, nothing to install.
+**One file:** download `Pryisce.exe` and run it. Nothing to unzip, nothing to install.<br>
+Looking for the BedWars tools? They are in **Pryisce BedWars**, which you get from the [Pryisce app](https://github.com/pryisce/pryisce-downloads).
 
 [![Latest version](https://img.shields.io/github/v/release/pryisce/pryisce-engine?label=latest&color=3B63F2&style=for-the-badge)](https://github.com/pryisce/pryisce-engine/releases/latest)
 [![Downloads](https://img.shields.io/github/downloads/pryisce/pryisce-engine/total?color=6F8CFF&style=for-the-badge)](https://github.com/pryisce/pryisce-engine/releases)
@@ -14,7 +15,7 @@ It measures your ping, fps and temperatures, shows where lag comes from, and has
 
 **[Download](https://github.com/pryisce/pryisce-engine/releases/latest)** &nbsp;·&nbsp; **[Patch notes](https://github.com/pryisce/pryisce-engine/releases)** &nbsp;·&nbsp; **[Install](#install)** &nbsp;·&nbsp; **[Is it safe?](#is-it-safe)**
 
-![Tweaks](docs/v5/tweaks.jpg)
+![Pryisce Engine](docs/v6/home-2026-11-15.png)
 
 </div>
 
@@ -26,7 +27,7 @@ It measures your ping, fps and temperatures, shows where lag comes from, and has
 | **Find lag** | Diagnostics |
 | **Fix it** | Advisor, Profiles, Tweaks, Mods, Frame Generation, Tools |
 | **Check it worked** | Benchmark, History, Snapshots |
-| **Roblox** | Mods, Server globe, Discord card |
+| **Roblox** | Pryisce Mode, Mods, Server globe, Discord card |
 | **Make it yours** | Appstore looks, Account, Pryisce Coins |
 
 ## Measure
@@ -68,7 +69,8 @@ It measures your ping, fps and temperatures, shows where lag comes from, and has
 
 ![Server globe](docs/v3/globe.jpg)
 
-- **Server globe**: when you join or teleport, a 3D globe shows which data centre you are connecting to, until you have loaded in
+- **Pryisce Mode**: while Roblox runs, it gets your whole PC: full-speed power plan, Roblox first in line for the processor and graphics card, browsers and background apps turned down
+- **Server globe**: when you join or teleport, a 3D globe shows which data centre you are connecting to. It lasts 6.4 seconds at most and closes by itself
 - **Discord**: shows Pryisce Engine on your Discord profile with your own text and picture
 
 ## Make it yours
@@ -80,11 +82,22 @@ It measures your ping, fps and temperatures, shows where lag comes from, and has
 
 ## Settings
 
-- **Look**: 24 colour palettes (royal blue by default), plus the Appstore looks. Switches, sliders and meters follow the colour you pick. The side bar shows eight rows; the other pages open from four groups
+- **Look**: 24 colour palettes (royal blue by default), plus the Appstore looks. Switches, sliders and meters follow the colour you pick. The window is a small panel with a slim side bar of icons; hover an icon to see its name
 - **Notifications**: a small notice in the corner for the things you choose: heat warnings, a profile starting, a finished benchmark, ping spikes, frame freezes, a new server. Each one has its own switch. Notices cannot be clicked, so they never get in the way of a game
 - **In-game overlay, hotkeys and sounds**
 - **A walk-through tutorial** of every page, with a colour picker, progress dots and arrow keys
 - **Updates**: close the app and open it again to get the newest version
+
+## Part of Pryisce
+
+Pryisce Engine was the first Pryisce app. It is now the PC and Roblox tweaks part only, and stays here on its own page.
+Everything else is its own app, gotten and updated from **[Pryisce](https://github.com/pryisce/pryisce-downloads)**:
+
+| App | What it is for |
+|---|---|
+| **Pryisce** | The store: gets, updates and opens every Pryisce app |
+| **Pryisce BedWars** | Auto clicker and tuner, Smart AutoKey, Auto Kit, Hit Fix, crosshair, mods, skies, shaders, win tracker |
+| **Pryisce PC Utility** | Windows tweaks, cleanup, startup apps, network tools, sensors, benchmarks and snapshots |
 
 ## Install
 
